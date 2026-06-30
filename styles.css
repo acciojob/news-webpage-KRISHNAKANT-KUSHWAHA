@@ -1,4 +1,4 @@
-/*  your css code here. If applicable */
+/* 
 body{
 	background-color:#f5f5f5;
 }
@@ -31,10 +31,46 @@ body{
 	width:200px
 }
 
+ */
 
+/* your css code here. If applicable */
 
+body{
+	background-color:#f5f5f5;
+}
 
+.header{
+	background-color:#011e29;
+	display:flex;
+	justify-content:center;
+	color:white;
+	padding:10px;           /* Added */
+}
 
+#home{
+	display:flex;
+	justify-content:space-between;   /* Added */
+	align-items:flex-start;          /* Added */
+}
 
+.latest-news-section{
+	background-color:white;
+	padding:15px;
+	margin:15px;
+	border-radius:10px;
+	text-align:center;               /* Added */
+}
 
+.pictorial-news-section{
+	padding:15px;                    /* Changed from 10px */
+	background-color:white;
+	border-radius:10px;              /* Added */
+	text-align:center;               /* Added */
+}
 
+/* Changed selector */
+.pictorial-news-section img{
+	width:200px;
+	display:block;                   /* Added */
+	margin:10px auto;                /* Added */
+}
